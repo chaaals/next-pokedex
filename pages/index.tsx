@@ -48,9 +48,11 @@ const Home = () => {
     e.preventDefault();
     if (search.keyword === "") return;
 
+    const keyword = search.keyword;
+
     router.push(
-      `/search/${search.keyword}?version=${version}&page=${currentPage?.number}`,
-      `/search/${search.keyword}`
+      `/search/${keyword}?version=${version}&page=${currentPage?.number}`,
+      `/search/${keyword}`
     );
   };
 

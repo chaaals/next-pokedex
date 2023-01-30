@@ -19,7 +19,7 @@ const SearchResult = () => {
     get: "search",
     url: `https://pokeapi.co/api/v2/pokemon/`,
     params: {
-      search: keyword as string,
+      search: keyword?.toString().toLowerCase(),
     },
   });
 
