@@ -1,0 +1,28 @@
+.select-container {
+  position: relative;
+}
+
+.select {
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--white);
+
+  border-radius: 0.5rem;
+  appearance: none;
+
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.select:hover {
+  border: 1px solid var(--red);
+}
+
+.icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+
+  width: 1rem;
+  aspect-ratio: 1;
+}

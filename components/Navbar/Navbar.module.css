@@ -1,0 +1,20 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  background-color: var(--red);
+
+  grid-area: nav;
+  overflow: hidden;
+
+  padding: 1rem;
+  border-bottom: 4px solid var(--black);
+}
+
+.nav-item {
+  font-size: 2rem;
+  color: var(--white);
+  text-decoration: none;
+}
